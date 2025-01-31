@@ -14,11 +14,11 @@
     "react-chartjs-2": "^5.3.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.28.2",
-    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -45,6 +45,7 @@
     ]
   },
   "engines": {
-    "node": "16.x"
-  }
+    "node": "22.x"
+  },
+  "pre-deploy": "npm install"
 }
